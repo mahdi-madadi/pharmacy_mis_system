@@ -1,0 +1,36 @@
+.bottom-margin {
+    margin-bottom: 10px;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+input[type='text'] {
+    background-image: url('../image/user.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+input[type='password'] {
+    background-image: url('../image/password.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.cancel_container {
+    text-align: center;
+}
+
+.cancel_container a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
